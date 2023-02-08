@@ -1,0 +1,23 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+bool isupper (std::string s) {
+    return isupper(s[0]);
+}
+string toupper1 (string s){
+    s[0] = toupper(s[0]);
+    return s;
+}
+
+int main (){
+    string s1 ;
+    cin >>s1;
+
+if (isupper(s1)==0){
+    cout<<toupper1(s1)<<endl;
+}
+else cout<<s1<<endl;
+
+
+    return 0;
+}
